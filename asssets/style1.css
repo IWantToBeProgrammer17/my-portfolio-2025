@@ -1,0 +1,46 @@
+.Judul-2 {
+    position: relative;
+    font-size: 2.5rem;
+    color: #596869;
+    font-weight: 600;
+}
+
+.Judul-2 ::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    background-color: #596869;
+    width: 200px;
+    height: 5px;
+}
+
+.skill-card {
+    border:2px solid #596869;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    transition: 0.3s;
+    box-shadow:-3px -3px 0px #596869;
+}
+
+.skill-card:hover {
+    transform: translate(5px, -5px);
+    box-shadow:6px 6px 0px #596869;
+}
+
+.skill-card-title {
+    font-size: 1.5rem;
+    color: #596869;
+    font-weight: 600;
+    text-align: center;
+}
+
+.skill-card-desc {
+    font-size: 1rem;
+    color: #596869;
+    font-weight: 600;
+    text-align: center;
+}
