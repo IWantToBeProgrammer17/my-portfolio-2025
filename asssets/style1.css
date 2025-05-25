@@ -27,7 +27,7 @@
 }
 
 .skill-card:hover {
-    transform: translate(5px, -5px);
+    transform: translate(-5px, 5px);
     box-shadow:6px 6px 0px #596869;
 }
 
