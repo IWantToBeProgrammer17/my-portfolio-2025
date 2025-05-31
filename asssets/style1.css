@@ -44,3 +44,41 @@
     font-weight: 600;
     text-align: center;
 }
+
+.form-container{
+            display: flex;
+            justify-content: left;
+}
+
+
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    transition-timing-function: ease;
+    
+}
+
+@keyframes cool{
+    0%{
+       
+    }
+    50%{
+        transform: rotate(0);
+        scale: 2;
+        border-radius: 0;
+    }
+    100%{
+        transform: rotate(360deg);
+        border-radius: 50%;
+        scale: 2;
+    }
+}
+
+.profile:hover {
+    animation-name: cool;
+    animation-duration: 3s;
+}
