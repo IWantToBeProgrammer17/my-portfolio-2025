@@ -85,7 +85,7 @@ class Person {
   }
 
   eat() {
-    //jika makan, energy bertambah 10% dari jumlah makanan yang dimakan
+    //jika makan , energy bertambah 10% dari jumlah makanan yang dimakan
   }
 }
 
