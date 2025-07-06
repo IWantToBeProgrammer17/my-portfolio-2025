@@ -81,11 +81,11 @@ class Person {
   }
 
   sleep() {
-    //jika tidur energy kembali ke 100
+    //jika tidur, energy kembali ke 100
   }
 
   eat() {
-    //jika makan energy bertambah 10% dari jumlah makanan yang dimakan
+    //jika makan, energy bertambah 10% dari jumlah makanan yang dimakan
   }
 }
 
@@ -94,3 +94,5 @@ console.log(person1);
 person1.getage();
 console.log(performance.energy);
 person1.walk(10);
+
+
